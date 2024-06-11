@@ -24,6 +24,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Verify build output
+        run: ls -la dist # 这一步检查 dist 目录是否存在，并列出其内容
+
       - name: Deploy to gh-pages branch
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
