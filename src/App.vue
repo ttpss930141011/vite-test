@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo"/>
     </a>
     <a href="https://vuejs.org/" target="_blank">
-      <span> Vueasdaasdasdsd 3 </span>
+      <span> asd 3 </span>
     </a>
   </div>
   <HelloWorld msg="Vite + Vue"/>
